@@ -1,0 +1,27 @@
+1- Encode ApI 
+Request -> 
+URL:localhost:8080/encode
+RequestBody:
+{"inputurl":"https://codesubmit.io/library/react"
+
+}
+
+Expected Response:
+{
+    "outurl": "https://short.est/2117202059"
+}
+
+
+2-Decode Api
+
+Request -> 
+URL:localhost:8080/decode
+RequestBody:
+{"inputurl":"https://short.est/2117202059"
+
+}
+
+Expected Response:
+{
+    "outurl": "https://codesubmit.io/library/react"
+} 
